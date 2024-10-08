@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Lesson 8 Exercises
+		</title>
+		<style >
+		p {
+			font-family: arial;
+		}
+			.test-box {
+			display:block;
+			margin-bottom: 3px;
+		}
+
+		.paragraph {
+			display: inline-block;
+			width: 200px;
+			vertical-align: middle;
+		}
+
+		.google-text {
+				width: 500px;
+				font-size: 16px;
+				padding-right: 15px;
+				padding-left: 15px;
+				padding-top: 12px;
+				padding-bottom: 12px;
+				border-style: solid;
+				border-width: 0.5px;
+				border-color: lightgray;
+				box-shadow: 0px 1px 5px rgba(56, 56, 56, 0.25);
+				border-radius: 30px;
+				display: block;
+			}
+
+			.google-text:active {
+				border-style: solid;
+				border-width: 0.5px;
+			}
+
+			.google-logo {
+				display: block;
+				margin-left: 150px;
+				width: 200px;
+				align-content: center;
+				margin-bottom:10px;
+			}
+
+			.name-box, .email-box{
+				font-family: arial;
+				border-style: solid;
+				border-width: 1px;
+				padding-left: 10px;
+				width: 120px;
+				padding-top: 10px;
+				padding-bottom: 10px;
+				border-radius: 5px;
+				border-color: lightgray;
+				margin-bottom: 10px;
+			}
+
+			.email-box {
+				display:block;
+				width: 258px;
+			}
+
+			.sign-up {
+				width: 272px;
+				background-color: rgb(64, 92, 252);
+				color:white;
+				border: none;
+				padding-top: 12px;
+				padding-bottom: 12px;
+				border-radius: 5px;
+				font-weight: bold;
+				font-family: arial;
+				cursor: pointer;
+			}
+
+			.request {
+				font-size: 40px;
+				margin-bottom: 20px;
+			}
+
+			.Enter-box {
+				font-family: arial;
+				display: block;
+				border:none;
+				background-color: rgb(240, 240, 240);
+				margin-bottom: 10px;
+				width: 400px;
+				padding-top: 15px;
+				color: darkgray;
+				padding-bottom:15px;
+				padding-left: 20px;
+				font-size: 16px;
+			}
+
+			.request-button, .schedule-button {
+				background-color: black;
+				padding-left: 20px;
+				padding-right: 20px;
+				color: white;
+				border:none;
+				font-size: 16px;
+				margin-top: 20px;
+				margin-right: 20px;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				cursor: pointer;
+			}
+
+			.schedule-button {
+				background-color: rgb(240, 240, 240);
+				color: black;
+			}
+
+		</style>
+		</head>
+
+	<body>
+		<!-- 8a -->
+		<input type = "text" class = "test-box" placeholder="Name">
+		<input type = "text" class = "Email-text" placeholder="Email">
+		<br> <br> <br> <br> <br>
+		<!-- 8b -->
+
+		<p class = "paragraph">
+			Thanks for chatting with our customer support. Would you like to take our quick survey?
+		</p>
+
+		<button>
+			Yes
+		</button>
+		<button>
+			No
+		</button>
+		<br> <br> <br>
+		<!-- 8c -->
+		 <img src = "images/google-logo.png", class = "google-logo">
+		 <input type = "text" placeholder = "Search Google or type a URL" class = "google-text">
+
+		 <br> <br> <br>
+
+		 <!-- 8d Sign up Form -->
+
+		 <input type = "text" placeholder = "First Name" class = "name-box">
+		 <input type = "text" placeholder = "Last Name" class = "name-box">
+
+		 <input type = "text" placeholder = "Email" class = "email-box">
+		 <button class = "sign-up">
+			Sign Up
+		 </button>
+
+		 <br><br><br>
+
+		 <!-- 8e Uber Request -->
+		<p class = "request">
+			Request a ride now
+		</p>
+
+		<input class = "Enter-box" type = "text" placeholder="Enter Pickup Location">
+
+		<input class = "Enter-box" type = "text" placeholder="Enter Destination">
+
+		<button class = "request-button">
+			Request Now
+		</button>
+
+		<button class = "schedule-button">
+			Schedule for later
+		</button>
+	</body>
+</html>

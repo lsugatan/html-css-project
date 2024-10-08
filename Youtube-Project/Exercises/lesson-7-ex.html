@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>
+			Lesson 7 Exercises
+		</title>
+		
 		<style>
 			.kitty {
 				width: 200px;
@@ -45,6 +49,74 @@
 				box-shadow: 0px 1px 5px rgba(56, 56, 56, 0.25);
 				border-radius: 30px;
 			}
+
+			.email {
+				font-family: arial;
+				font-size: 12px;
+				color: gray;
+				margin-bottom:4px;
+			}
+
+			.email-text {
+				width: 270px;
+				margin-bottom: 8px;
+				border-style: solid;
+				border-width: 1px;
+			}
+
+			.terms {
+				font-family: arial;
+				color: gray;
+				font-size:12px;
+			}
+
+			.linked-in-button {
+				font-family: arial;
+				background-color: rgb(10, 102, 194);
+				color: white;
+				width: 280px;
+				padding-top: 10px;
+				padding-bottom:10px;
+				border: none;
+				border-radius: 140px;
+				cursor: pointer;
+			}
+
+			.cat-tweet {
+				vertical-align: middle;
+				width: 70px;
+				height: 70px;
+				object-fit: cover;
+				object-position: center;
+				border-radius: 70px;
+			}
+
+			.twitter-text {
+				font-family:arial;
+				border: none;
+				font-size: large;
+				margin-left: 10px;
+				vertical-align: middle;
+			}
+
+			.Tweet {
+				font-family: arial;
+				font-size: large;
+				font-weight:bold;
+				background-color: rgb(29, 155, 240);
+				color: white;
+				border: none;
+				padding-right: 14px;
+				padding-left: 14px;
+				padding-top:8px;
+				padding-bottom:8px;
+				border-radius: 20px;
+				margin-left: 20px;
+				vertical-align: middle;
+				cursor: pointer;
+			}
+
+
 		</style>
 	</head>
 	<body>
@@ -62,5 +134,30 @@
 		 <!--7e Shadow, no border-->
 
 		 <input type = "text", class = "google-text" placeholder="Search Google or type a URL">
+
+		 <br> <br> <br>
+
+		 <!-- 7f Linked In Sign Up-->
+		<p class = "email">
+			Email
+		</p>
+		<input type = "text", class = "email-text">
+		<p class = "terms">
+			By clicking Agree & Join, you agree to the Privacy Policy.
+		</p>
+
+		<button class = "linked-in-button">
+			Agree & Join
+		</button>
+
+		<br> <br> <br>
+
+		<!-- 7g Twitter Text Box -->
+
+		<img src = "images/cat-breathing-fast-orange-kitten.jpg" class = "cat-tweet">
+		<input type = "text" placeholder="What's Happening?" class = "twitter-text">
+		<button class = "Tweet">
+			Tweet
+		</button>
 	</body>
 </html>
